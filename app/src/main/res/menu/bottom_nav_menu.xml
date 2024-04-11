@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/time_outline"
+        android:title="Session"
+        app:labelVisibilityMode="labeled"
+        android:icon="@drawable/friends" />
+    <item
+        android:id="@+id/add_sign"
+        android:title="Tasks"
+        app:labelVisibilityMode="unlabeled"
+        android:icon="@drawable/tasks"
+        />
+    <item
+        android:id="@+id/pie_chart"
+        android:title="Stats"
+        app:labelVisibilityMode="unlabeled"
+        android:icon="@drawable/ic_pie_chart" />
+</menu>
